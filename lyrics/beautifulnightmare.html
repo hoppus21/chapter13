@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beautiful Nightmare | Saints & Sinners</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <!-- Custom Styles -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      color: #fff;
+      background: #000;
+      overflow-x: hidden;
+    }
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200%;
+      height: 100%;
+      background: url('https://www.transparenttextures.com/patterns/foggy-birds.png') repeat;
+      background-size: auto;
+      z-index: -1;
+      animation: slide 60s linear infinite;
+    }
+    @keyframes slide {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+    .lyrics-title {
+  font-family: 'Rock Salt', cursive;
+  font-size: 2.5rem;
+  color: #f39c12;
+  text-shadow: 0 0 8px #f39c12;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #f39c12;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+    .lyrics-body {
+      white-space: pre-line;
+      font-size: 1.2rem;
+      line-height: 1.8;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Moving background -->
+  <div class="background"></div>
+
+  <!-- Lyrics content -->
+  <div class="container text-center py-5">
+    <h1 class="lyrics-title">Beautiful Nightmare</h1>
+    <div class="lyrics-body text-start text-white">
+      <!-- Replace below with actual lyrics -->
+      <p>
+        I woke up today with a smile on my face
+Dreaming of your touch, your warm embrace
+You're my sunshine, my morning dew
+Every little thing reminds me of you
+
+I wanna be your hero, your shining knight
+The one who holds you close every single night
+You stole my heart, made it skip a beat
+With every little kiss, you made my life complete
+
+Oh, love so sweet like a summer breeze
+With you, my darling, time just seems to freeze
+In your eyes, I see my future so bright
+Hold me tight, let's dance through the night
+
+But then came the storm, dark clouds rolled in
+Your love turned cold, sharp as a pin
+You took my heart, chewed it up, spit it out
+Left me standing here, filled with doubt
+
+I thought you were my angel, my better part
+Turns out you were the dagger, twisted in my heart
+You played it well, put on quite the show
+Now I see the truth, you're just my foe
+
+Oh, love so sour, like a bitter pill
+You made me laugh, then you made me ill
+In your lies, I see nothing sincere
+I wanted love, but there's nothing here
+
+So here's to the memories, the laughs, the tears
+To the crazy ride we had through the years
+I gave you my heart, and you tore it apart
+But now I'm picking up the pieces, making a new start
+
+Oh, love so twisted, like a carnival ride
+You took me high, then tossed me aside
+In your wake, I found my strength and might
+Goodbye to you, I'll be alright
+
+Oh, love so sour, like a bitter pill
+You made me laugh, then you made me ill
+In your lies, I see nothing sincere
+I wanted love, but there's nothing here
+      </p>
+    </div>
+  </div>
+  <div class="text-center my-5">
+    <a href="../index.html" class="btn btn-outline-warning">← Return to Home Page</a>
+  </div>
+</body>
+</html>
