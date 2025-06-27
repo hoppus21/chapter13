@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chapter 13</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="background"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-transparent">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="./images/logo2.png" alt="Logo" class="me-2">
+        
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="nav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#music">Music</a></li>
+          <li class="nav-item"><a class="nav-link" href="#videos">Videos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#store">Store</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Audio (Spotify Embed) -->
+  <section id="hero-audio" class="text-center py-5" style="margin-top: 80px;">
+    <h2 class="mb-4" style="font-family: 'Rock Salt', cursive;">Listen Now</h2>
+    <div class="d-flex justify-content-center align-items-center flex-wrap gap-3">
+      <!-- Left Icons -->
+      <div class="d-flex gap-3">
+        <a href="https://open.spotify.com/artist/4Q5OFUBG9CBQcNEjDOe7h9?si=38FsuHChSQadRPibMlIX7w" target="_blank" aria-label="Spotify">
+          <i class="fab fa-spotify fa-2x text-success"></i>
+        </a>
+        <a href="https://music.apple.com/at/artist/chapter-13/1723417114" target="_blank" aria-label="Apple Music">
+          <i class="fab fa-apple fa-2x text-light"></i>
+        </a>
+      </div>
+  
+      <!-- Spotify Player -->
+      <iframe src="https://open.spotify.com/embed/track/6I0VSKhwZuWAijgXqxaaqG" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+  
+      <!-- Right Icons -->
+      <div class="d-flex gap-3">
+        <a href="https://youtube.com/@chapter.13?feature=shared" target="_blank" aria-label="YouTube">
+          <i class="fab fa-youtube fa-2x text-danger"></i>
+        </a>
+        <a href="https://music.amazon.com/artists/B001SY25R8/chapter-13?marketplaceId=A1PA6795UKMFR9&musicTerritory=DE&ref=dm_sh_2Zzq5pVwBSoRa9h0jO3h932Mp" target="_blank" aria-label="Amazon Music">
+          <i class="fab fa-amazon fa-2x text-warning"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Music Section -->
+  <section id="music" class="py-5">
+    <div class="container">
+      <h2 class="section-title">Music</h2>
+
+      <!-- Saints & Sinners Album -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-4 text-center mb-3">
+          <img src="./images/IMG_1810.JPG" alt="Saints & Sinners Cover" class="img-fluid rounded">
+        </div>
+        <div class="col-md-8">
+          <h3 style="font-family: 'Rock Salt', cursive;">Saints &amp; Sinners (2025)</h3>
+          <ul class="list-unstyled">
+            <li><a href="lyrics/saintsandsinners.html" class="text-white">1. Saints &amp; Sinners</a></li>
+            <li><a href="lyrics/gone.html" class="text-white">2. Gone (feat. Rob Davies)</a></li>
+            <li><a href="lyrics/demons.html" class="text-white">3. Demons (feat. Aubrey Illurimo)</a></li>
+            <li><a href="lyrics/influencer.html" class="text-white">4. Influencer</a></li>
+            <li><a href="lyrics/buildingdreams.html" class="text-white">5. Building Dreams, Breaking Hearts</a></li>
+            <li><a href="lyrics/thankyounext.html" class="text-white">6. Thank You, Next</a></li>
+            <li><a href="lyrics/likeaghost.html" class="text-white">7. Like a Ghost</a></li>
+            <li><a href="lyrics/hopedieslast.html" class="text-white">8. Hope Dies Last</a></li>
+            <li><a href="lyrics/inthedeadofnight.html" class="text-white">9. In the Dead of Night</a></li>
+            <li><a href="lyrics/beautifulnightmare.html" class="text-white">10. Beautiful Nightmare</a></li>
+            <li><a href="lyrics/heaven.html" class="text-white">11. Heaven</a></li>
+            <li><a href="lyrics/screamitout.html" class="text-white">12. Scream It Out</a></li>
+            <li><a href="lyrics/outsider.html" class="text-white">13. Outsider</a></li>
+            <li><a href="lyrics/drive.html" class="text-white">14. Drive</a></li>
+            <li><a href="lyrics/gatesofhell.html" class="text-white">15. Gates of Hell</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Long Forgotten Son Album -->
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center mb-3">
+          <img src="./images/long.jpg" alt="Long Forgotten Son Cover" class="img-fluid rounded">
+        </div>
+        <div class="col-md-8">
+          <h3 style="font-family: 'Rock Salt', cursive;">Long Forgotten Son (2024)</h3>
+          <ul class="list-unstyled">
+            <!-- 13 tracks -->
+            <li><a href="lyrics/intro.html" class="text-white">1. Intro</a></li>
+            <li><a href="lyrics/theshadow.html" class="text-white">2. The Shadow</a></li>
+            <li><a href="lyrics/somethingright.html" class="text-white">3. Something Right</a></li>
+            <li><a href="lyrics/allthebest.html" class="text-white">4. All the Best</a></li>
+            <li><a href="lyrics/fadinglight.html" class="text-white">5. Fading Light</a></li>
+            <li><a href="lyrics/longforgottenson.html" class="text-white">6. Long Forgotten Son</a></li>
+            <li><a href="lyrics/heartstillbleeding.html" class="text-white">7. Heart Still Bleeding</a></li>
+            <li><a href="lyrics/arewethereyet.html" class="text-white">8. Are We There Yet?</a></li>
+            <li><a href="lyrics/goodbyeoldfriend.html" class="text-white">9. Goodbye, Old Friend</a></li>
+            <li><a href="lyrics/stronger.html" class="text-white">10. Stronger</a></li>
+            <li><a href="lyrics/300915.html" class="text-white">11. 300915</a></li>
+            <li><a href="lyrics/problematic.html" class="text-white">12. Problematic</a></li>
+            <li><a href="lyrics/lastdayonearth.html" class="text-white">13. Last Day on Earth</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Videos Section -->
+  <section id="videos" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="section-title">Videos</h2>
+
+      <div class="row g-4 justify-content-center">
+  
+        <!-- Influencer -->
+        <div class="col-md-4 text-center">
+          <a href="https://www.youtube.com/watch?v=WIjIcb57eF0" target="_blank">
+            <img src="https://img.youtube.com/vi/WIjIcb57eF0/hqdefault.jpg" alt="Influencer" class="img-fluid rounded shadow-sm mb-2">
+            <p class="text-white">Influencer (Official Lyric Video)</p>
+          </a>
+        </div>
+  
+        <!-- Heaven -->
+        <div class="col-md-4 text-center">
+          <a href="https://www.youtube.com/watch?v=A5K0sUkVrkM" target="_blank">
+            <img src="https://img.youtube.com/vi/A5K0sUkVrkM/hqdefault.jpg" alt="Heaven" class="img-fluid rounded shadow-sm mb-2">
+            <p class="text-white">Heaven (Official Music Video)</p>
+          </a>
+        </div>
+  
+        <!-- In the Dead of Night -->
+        <div class="col-md-4 text-center">
+          <a href="https://www.youtube.com/watch?v=goJxealCoPU" target="_blank">
+            <img src="https://img.youtube.com/vi/goJxealCoPU/hqdefault.jpg" alt="In the Dead of Night" class="img-fluid rounded shadow-sm mb-2">
+            <p class="text-white">In the Dead of Night (Official Music Video)</p>
+          </a>
+        </div>
+  
+        <!-- Stronger -->
+        <div class="col-md-4 text-center">
+          <a href="https://www.youtube.com/watch?v=YOoJyWAA9nQ" target="_blank">
+            <img src="https://img.youtube.com/vi/YOoJyWAA9nQ/hqdefault.jpg" alt="Stronger" class="img-fluid rounded shadow-sm mb-2">
+            <p class="text-white">Stronger (Official Lyric Video)</p>
+          </a>
+        </div>
+  
+        <!-- Are We There Yet -->
+        <div class="col-md-4 text-center">
+          <a href="https://www.youtube.com/watch?v=zA8IUsNrlYg" target="_blank">
+            <img src="https://img.youtube.com/vi/zA8IUsNrlYg/hqdefault.jpg" alt="Are We There Yet" class="img-fluid rounded shadow-sm mb-2">
+            <p class="text-white">Are We There Yet? (Official Lyric Video)</p>
+          </a>
+        </div>
+  
+        <!-- Diana -->
+        <div class="col-md-4 text-center">
+          <a href="https://www.youtube.com/watch?v=Br9jgq36hJA" target="_blank">
+            <img src="https://img.youtube.com/vi/Br9jgq36hJA/hqdefault.jpg" alt="Diana" class="img-fluid rounded shadow-sm mb-2">
+            <p class="text-white">Diana (Official Music Video)</p>
+          </a>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="section-title">About Chapter 13</h2>
+
+          <p>Hi, my name is <strong>Marek Zahorec</strong> and I make music that I’ve always loved listening to.</p>
+      <p>There’s no strict genre or formula — just sounds that feel honest and real to me. I started <strong>Chapter 13</strong> in 2023 as a way to channel everything I’ve carried with me over the years: emotions, questions, memories, and the raw energy of music that speaks louder than words.</p>
+      <p>Even though it’s a solo project, I work with talented session musicians who help bring these songs to life. Together, we created the debut album <em>Long Forgotten Son</em> (2024), where I explored themes like identity and self-discovery. The journey continues with <em>Saints &amp; Sinners</em> (2025), diving into faith, personal struggles, and change — all the messy, human stuff.</p>
+      <p>At the end of the day, Chapter 13 is just me trying to make sense of the world through music — and maybe help you feel a little less alone in yours.</p>
+      <p>More music, merch, and updates are on the way. Thanks for being here.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Store Section -->
+  <section id="store" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="section-title text-center">Store</h2>
+      <div class="row justify-content-center g-5">
+  
+        <!-- Long Forgotten Son -->
+        <div class="col-md-6 text-center">
+          <h3 class="text-white mb-3">Long Forgotten Son (2024)</h3>
+          <iframe
+            style="border: 0; width: 100%; max-width: 350px; height: 470px;"
+            src="https://bandcamp.com/EmbeddedPlayer/album=3134974553/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+            seamless>
+            <a href="https://chapter13official.bandcamp.com/album/long-forgotten-son">Long Forgotten Son by Chapter 13</a>
+          </iframe>
+        </div>
+  
+        <!-- Saints & Sinners -->
+        <div class="col-md-6 text-center">
+          <h3 class="text-white mb-3">Saints & Sinners (2025)</h3>
+          <iframe
+            style="border: 0; width: 100%; max-width: 350px; height: 470px;"
+            src="https://bandcamp.com/EmbeddedPlayer/album=1405586828/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
+            seamless>
+            <a href="https://chapter13official.bandcamp.com/album/saints-sinners">Saints & Sinners by Chapter 13</a>
+          </iframe>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="reviews" class="py-5 bg-black text-white">
+    <div class="container">
+      <h2 class="section-title">Reviews</h2>
+
+  
+      <!-- Written Review -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8">
+          <a href="https://folknrock.com/news/spotlight-album-long-forgotten-son-chapter-13" target="_blank" class="text-decoration-none text-white">
+            <blockquote class="blockquote text-center hover-glow">
+              <p>“A rock album that hits all the right notes.”</p>
+              <footer class="blockquote-footer text-white-50 mt-2">FolknRock Magazine</footer>
+            </blockquote>
+          </a>
+        </div>
+      </div>
+  
+      <!-- Video Review Carousel -->
+      <div class="video-scroll-container d-flex overflow-auto gap-4 px-2">
+        <div class="flex-shrink-0" style="width: 320px;">
+          <a href="https://www.youtube.com/watch?v=H_aN1iqW-d0" target="_blank">
+            <img src="https://img.youtube.com/vi/H_aN1iqW-d0/hqdefault.jpg" class="img-fluid rounded shadow-sm mb-2" alt="Reaction 1">
+            <p class="text-white text-center">The Music B&B - Long Forgotten Son</p>
+          </a>
+        </div>
+        <div class="flex-shrink-0" style="width: 320px;">
+          <a href="https://www.youtube.com/watch?v=UgiV2F9QYO0" target="_blank">
+            <img src="https://img.youtube.com/vi/UgiV2F9QYO0/hqdefault.jpg" class="img-fluid rounded shadow-sm mb-2" alt="Reaction 2">
+            <p class="text-white text-center">Letsgocraigo - Saints & Sinners</p>
+          </a>
+        </div>
+        <div class="flex-shrink-0" style="width: 320px;">
+          <a href="https://www.youtube.com/watch?v=leJNtyICNWk" target="_blank">
+            <img src="https://img.youtube.com/vi/leJNtyICNWk/hqdefault.jpg" class="img-fluid rounded shadow-sm mb-2" alt="Reaction 3">
+            <p class="text-white text-center">The Music B&B - Saints & Sinners</p>
+          </a>
+        </div>
+        <div class="flex-shrink-0" style="width: 320px;">
+          <a href="https://www.youtube.com/watch?v=yEw4sKojcj0" target="_blank">
+            <img src="https://img.youtube.com/vi/yEw4sKojcj0/hqdefault.jpg" class="img-fluid rounded shadow-sm mb-2" alt="Reaction 4">
+            <p class="text-white text-center">Spiderhands - Saints & Sinners</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="py-5 text-white bg-dark">
+    <div class="container text-center">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="mb-4">Get in touch or just say hi!</p>
+      
+      <div class="d-flex justify-content-center gap-4 flex-wrap mb-3">
+        <a href="mailto:marekzaho@gmail.com" class="text-white fs-4" aria-label="Email">
+          <i class="fas fa-envelope me-2"></i> marekzaho@gmail.com
+        </a>
+        <a href="https://www.facebook.com/chapter13rock" target="_blank" class="text-white fs-4" aria-label="Facebook">
+          <i class="fab fa-facebook me-2"></i> Facebook
+        </a>
+        <a href="https://www.instagram.com/chapter13rock" target="_blank" class="text-white fs-4" aria-label="Instagram">
+          <i class="fab fa-instagram me-2"></i> Instagram
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center text-white py-3 bg-black small">
+    <p class="mb-0">&copy; 2025 Chapter 13. Website created by Marek Záhorec.</p>
+  </footer>
+  
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
